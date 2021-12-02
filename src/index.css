@@ -1,13 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap');
+:root {
+  --c1: #EEAE55;
+  --white: #ECF0F3;
+  --c2d: #3B566A;
+  --c2l: #647A8A;
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
+  cursor: default;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* global reset*/
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+/* Buttons */
+.primary-btn{
+  font-size: 0.7em;
+  background: var(--c2d);
+  color: var(--c1);
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* hello world */
+.from-line{
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* container */
+.container{
+  width: 80vw;
+  height: 100vh;
+  max-width: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }

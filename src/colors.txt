@@ -1,0 +1,8 @@
+Yellow => #EEAE55
+White => #ECF0F3
+Blue (L) => #647A8A
+Blue (D) => #3B566A
+
+api key => 9c7dded4-61d4-43c9-8352-9fa9bfbfc87a
+url => https://forkify-api.herokuapp.com/api/v2/recipes/
+example => https://forkify-api.herokuapp.com/api/v2/recipes/?search=chicken&key=9c7dded4-61d4-43c9-8352-9fa9bfbfc87a
