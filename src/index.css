@@ -42,10 +42,13 @@ a{
 
 /* container */
 .container{
-  width: 80vw;
+  background: var(--c1);
+  color: var(--c2d);
+  width: 100vw;
   height: 100vh;
-  max-width: 500px;
+  max-width: 600px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  box-shadow: 0 0 10px #333;
 }

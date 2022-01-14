@@ -1,0 +1,59 @@
+.intg{
+    position: relative;
+    width: 50%;
+    align-items: flex-start;
+    float: left;
+    padding: 5px;
+}
+.lint{
+    font-size: 0.7em;
+}
+.lint > *{
+    margin: 0 2px;
+}
+.ldes{
+    font-size: 0.5em;
+    padding: 0 10px;
+    padding-left: 20px;
+}
+.scrl{
+    overflow-y: auto;
+}
+.scrl > img{
+    width: 100%;
+}
+.scrl > .title{
+    background: var(--c2d);
+    color: var(--c2l);
+    width: 100%;
+    padding: 10px 40px ;
+    position: relative;
+    transform: rotateZ(-2deg) scale(1.2) translateY(-20px);
+    text-align: center;
+    box-shadow: 0 0 5px #000;
+    text-transform: capitalize;
+}
+.backicon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: var(--c2d);
+    color: var(--c2l);
+    padding: 10px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #000;
+}
+.publisher{
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+}
+.publisher > span{
+    margin-left: 5px;
+}

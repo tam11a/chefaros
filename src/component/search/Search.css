@@ -1,0 +1,39 @@
+.searchResultSpace{
+    overflow-y: auto;
+    width: 100%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+.searchResultSpace > p{
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 95%;
+    text-align: right;
+}
+.result-card{
+    position: relative;
+    width: 100%;
+    background: #ffffff11;
+    padding: 5px;
+    box-shadow: 0 0 5px #11111133;
+    border-radius: 200px;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.result-card p{
+    font-size: 0.8em;
+}
+
+.result-card > .img-holder{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.img-holder > img{
+    position: absolute;
+    height: 100%;
+}

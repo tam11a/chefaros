@@ -1,0 +1,50 @@
+.Footer{
+    position: relative;
+    width: 100%;
+    background: var(--c2d);
+    color: var(--c1);
+    padding: 10px;
+}
+.foot-op{
+    flex: 1;
+}
+.foot-op > span{
+    display: none;
+    margin: 0 10px;
+    font-size: 0.8em;
+}
+.foot-op.active{
+    background: var(--c2l);
+    color: var(--c2d);
+    padding: 10px;
+    border-radius: 20px;
+}
+.foot-op.active > span{
+    display: unset;
+}
+.searchBox{
+    position: absolute;
+    background: var(--c2d);
+    height: 100%;
+    width: 100%;
+}
+.inputBox{
+    width: 95%;
+    background: var(--c2l);
+    color: var(--c2d);
+    padding: 10px;
+    border-radius: 20px;
+}
+.inputBox > input{
+    margin: 0 7px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--c2d);
+    font-size: 0.75em;
+    padding-left: 7px;
+}
+.inputBox > input::placeholder{
+    color: var(--c2d);
+    opacity: 50%;
+}

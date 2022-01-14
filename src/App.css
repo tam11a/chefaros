@@ -6,8 +6,7 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  background: var(--c1);
-  color: var(--c2d);
+  background: var(--c2l);
 }
 .App-logo{
   width: 200px;
@@ -20,20 +19,28 @@
 }
 
 .flex-inline,
+.flex-inline-center,
 .flex-col,
-.flex-to-col{
+.flex-to-col,
+.flex-col-center{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-col{
+.flex-col,
+.flex-col-center{
   flex-direction: column; 
 }
 
+.flex-inline,
+.flex-col-center{
+  justify-content: center;
+}
 .f1{
   flex: 1;
 }
+
 @media screen and (max-width: 540px) {
   .flex-to-col{
     flex-direction: column;
